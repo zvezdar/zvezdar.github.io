@@ -1,0 +1,2105 @@
+/* 
+    Document   : custom
+    Created on : 24-feb-2014, 23:33:46
+    Author     : Javi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*Pantalla grande normal*/
+
+@font-face {
+    font-family: Sofia;
+    src: url(Sofia-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Regular.ttf);
+}
+
+
+body {
+    padding-top: 0px;
+}
+
+.container { 
+    position: relative;width: 1000px;margin: 0 auto; padding: 0;
+}
+
+#cabecera {
+    background-image: url(../img/cabecera_home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 112px; 
+}
+
+#principal {
+    padding-top: 20px;
+}
+
+#sidebar {    
+    float:left;
+    width: 350px;
+}
+
+#sidecabecera {
+    background-image: url(../img/cabecera1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 26px; 
+}
+
+#sidecabecera p {
+    margin-top:0px;
+}
+
+#contenido {
+    float: right;
+    width: 588px;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+.msgbottom {
+    float: right;
+    width: 570px;
+    height: auto;
+	font-family: Raleway,Arial,Raleway,Raleway;
+	font-size:11px;
+	margin-top:10px;
+	color:#5b5b5b;
+	padding:10px;
+}
+
+.msgbottom a{color: #b62551 !important;text-decoration:none;}
+
+#contenidocabecera {
+    background-image: url(../img/cabeceraform3.jpg);
+    background-repeat: no-repeat;
+    background-size: 588px;
+    height: 30px; 
+}
+
+.formulario {
+    font-family: Raleway, Raleway, Arial, Raleway;
+    color: #5b5b5b;
+    padding: 15px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.formdesc1 {
+    padding: 0px 0px;
+    font-family: Raleway !important;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+    margin-top:10px;
+	font-weight:bold;
+}
+
+.formdesc2 {
+    float: right;
+    font-size: 11px !important;
+    margin-bottom: 0px !important;
+	font-weight:normal;
+}
+
+.divFilaForm {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.divlabel {
+    display: inline-block; 
+    width: 251px;
+    font-size: 15px!important;
+}
+
+.divcampos {
+    display: inline-block;
+}
+
+.divcampos input{
+    display: inline;
+    height: 13px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    line-height: 20px;
+    color: #555;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px !important;
+    vertical-align: middle;
+    font-family: Raleway, Raleway, Arial, Raleway;
+}
+
+.check {
+    display: inline-block;
+}
+
+.aviso {
+    display: inline-block;
+    width: 507px;
+}
+
+.aviso a {
+    text-decoration: none;
+    background: #FDF3F2 !important;
+    color: #b62551 !important;
+}
+
+.asterisco {
+    color: #f00;
+    margin-left: 5px;   
+}
+
+.asteriscoabajo {
+    color: #f00;
+    font-size: 16px;
+    margin: 0;
+}
+
+#condiciones {
+    font-size: 12px !important;
+    margin-top: 30px;
+}
+
+#emailInput {
+    width: 127px;
+}
+
+#SubmitButton {
+    background-color: #b62551 !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 138px;
+    font-size: 13px;
+    float: right;
+    margin-right: 205px;
+    margin-top: 12px;
+    margin-bottom: 27px;
+}
+
+#emailDiv {
+    margin-top: 20px;
+}
+
+#anniversai#b62551ivInput
+{
+    vertical-align: top;
+}
+
+
+#nameInput {
+    width: 100px;
+  
+}
+
+#lastnameInput {
+    width: 110px;
+    margin-left: 20px;
+}
+
+#titulo1 {
+    text-align: center;
+    font-family: Raleway,Raleway !important;
+    color: #b62551 !important;
+    font-size: 23px !important;
+    font-weight: bold;
+    padding: 0px 80px;
+    line-height: 23px;
+    margin: 0 0 10px;
+}
+
+#titulo2 {
+    text-align: center;
+    font-family: Raleway,Raleway !important;
+    color: #b62551 !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    padding: 0px 80px;
+    line-height: 23px;
+    margin-top: 22px;
+}
+
+#msgAsterisco {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    font-family: Raleway !important;
+    color: #5b5b5b;
+}
+
+.form2lb {
+    width: 251px;
+    font-family: Raleway,Arial,Raleway,Raleway;
+    font-size: 12px !important;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#adressseInput {
+    width: 265px;
+}
+
+#zipInput {
+    width: 80px;
+}
+
+#cityInput {
+    width: 265px;
+}
+
+#countryInput {
+   font-family: Raleway, Raleway, Arial, Raleway;
+   font-size: 12px !important;
+   border: 1px solid #bbb;
+   height: 30px;   
+}
+
+#NomUtilisateurInput {
+    width: 265px;
+}
+
+#MotDePasseInput {
+    width: 265px;
+}
+
+#VeriMotDePasseInput {
+    width: 265px;
+}
+
+#contenidof3 {
+    float: right;
+        width: 580px;
+    height: 541px;
+    background-color: #f4f4f4;
+}
+
+#msgSuperior {
+    margin-bottom: 50px;
+}
+
+#error {
+    margin-top: 10px;    
+    padding-left: 10px;
+    background: #ffeded;
+    font-weight: bold;
+    color: #b62551;
+    font-size: 12px;
+    font-family: Raleway,Arial,Raleway,Raleway;
+	float: left;
+	width:100%;
+}
+
+#error p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#error2 {
+    margin-top: 10px;    
+    padding-left: 10px;
+    background: #ffeded;
+    font-weight: bold;
+    color: #b62551;
+    font-size: 12px;
+    font-family: Raleway,Arial,Raleway,Raleway;
+	float: left;
+	width:100%;
+}
+
+#error2 p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.cabecera3210{width:100%; background-color:#b62551; color:white; font-family: Raleway, Raleway, Arial, Raleway;padding:3px 0px;}
+
+.cabecera3210 span{margin-left:0px;}
+
+.merci3210{width:80%;color:#5b5b5b; font-family: Raleway, Raleway, Arial, Raleway;padding:40px;font-weight:bold;}
+.merci3210 span{font-size:40px;}
+
+#sidebar .cabecera3210{text-align:center;}
+
+.cabeceraimg{max-width:100%;}
+
+.bannerregsiter{background-color:#F3A1A3;}
+
+.formulario{font-family: Raleway,Arial,Raleway,Raleway;
+font-size: 12px !important;
+font-weight: normal;
+line-height: 20px;}
+
+
+#sidebar .parte1{ font-family: 'Raleway'; font-size: 20px; text-align: center; line-height: 22px; color: #666;}
+#sidebar .parte2{ font-family: 'Raleway'; text-align: center; line-height: 22px; color: #666; border-bottom: 1px dashed #ea4b62; padding-bottom: 15px;font-size: 15px;}
+
+#sidebar .parte3{ font-family: 'Raleway'; text-align: center; line-height: 22px; color: #666; border-bottom: 1px dashed #ea4b62; padding-bottom: 15px;font-size: 15px;}
+
+#sidebar .parte1{margin-top:20px;}
+
+.fechasaniversario
+{
+float:left; width:auto !important;
+margin-right:10px;
+}
+
+#emailDiv {
+margin-top: 0px;
+}
+
+#msgSuperior {
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.divFilaForm {
+width: 100%;
+margin-bottom: 10px;
+}
+
+.aviso {
+display: inline-block;
+width: 525px;
+float: right;
+}
+
+.aviso.nestle, .aviso.guigoz {
+display: inline-block;
+width: 494px;
+}
+
+.aniversario1{margin-top:10px;}
+
+#condiciones {
+font-size: 12px !important;
+margin-top: 10px;
+float: left;
+}
+
+.check {
+float: left;
+}
+
+#emailInput {
+    width: 120px;
+}
+
+#phoneInput{width: 120px;}
+
+#sidebar {
+float: left;
+width: 360px;
+}
+
+#titulo2 {
+line-height: 20px;
+margin-top: 10px;
+}
+
+#msgAsterisco {
+line-height: 0.6;
+}
+
+#countryInput {
+height: 23px;
+}
+
+#NomUtilisateurInput {
+width: 150px;
+}
+
+
+.form2lb {
+width: 200px;
+}
+
+#contenidof3 {
+height: auto;
+}
+
+#sidebar .parte1PC, #sidebar .parte2PC{display:none;}
+
+
+@media only screen and (max-width: 800px) {
+
+#sidebar .parte1PC, #sidebar .parte2PC{display:block;}
+#sidebar .bannernewPC, #sidebar .parte3{display:none;}
+
+.cabecerasidebar{display:none;}
+
+.container {
+position: relative;
+width: 100%;
+}
+
+#contenido {
+float: left;
+width: 100%;
+margin:0px;
+height:auto;
+}
+
+.msgbottom{float: left;
+width: 90%;
+margin:0px;
+height:auto;
+font-size:10px;}
+
+#contenidof3 {
+float: left;
+width: 100%;
+margin:0px;
+height:auto;
+}
+
+.cabecera3210 {
+font-size: 14px;
+}
+.divlabel {
+display: inline-block;
+width: 180px;
+}
+
+.formdesc2 {
+margin-bottom: 20px !important;
+}
+
+#sidebar {
+float: left;
+width: 100%;
+}
+
+.slogan3210{font-family: 'Raleway';
+font-size: 22px;
+text-align: left;
+line-height: 27px;
+color: #f49832;
+background-color: #ecedee;
+margin-top: 0px;
+padding: 15px;
+float: left;
+width: 100%;
+padding-left: 20px;}
+
+.sloganimagen3210{
+margin-right: 37px;
+width: 42% !important;
+float: right;
+margin-top: -118px;
+}
+
+
+#SubmitButton {
+margin-right: 88px;
+}
+
+.aviso {
+display: inline-block;
+width: 100%;
+}
+
+.divlabel {
+display: inline-block;
+width: auto;
+}
+
+
+
+#sidebar .parte2{width:45%;float:left;text-align:center;}
+
+#sidebar .parte1{width:45%;float:right;text-align:center;font-size:26px;}
+#sidebar .parte2{font-size:15px;}
+
+#sidebar .parte1 span{font-size:36px !important; line-height:36px !important;}
+
+
+
+#sidebar .parte2 span{display:none;}
+#sidebar .parte2{border-bottom: 0px solid white;}
+#sidebar .parte1 img{width:100%;float:right;text-align:center; margin-right:25px;}
+
+.divlabel {
+display: inline-block;
+width: 40%;
+}
+
+.divcampos {
+display: inline-block;
+width: 55%;
+float:right;
+}
+
+.divcampos input {
+width: 85% !important;
+float: right;
+}
+
+
+.aviso {
+display: inline-block;
+width: 90%;
+}
+
+.divFilaForm {
+margin-bottom: 7px;
+width: 100%;
+float: left;
+}
+
+#lastnameInput {
+margin-left: 0px;
+}
+
+.asterisco {
+width: 5px;
+float: right;
+margin-right: 10px;
+}
+
+.divcampos select{
+width: 85%;
+float: right;
+}
+
+body {
+padding-top: 0px;
+}
+
+#principal {
+padding-top: 0px;
+}
+
+#sidebar .parte2 br{display:none;}
+
+#sidebar .parte1 {
+margin-top: 10px;
+}
+
+#sidebar .parte2 {
+padding-bottom: 0px;
+}
+
+.divcampos select{
+float: left;
+}
+
+.divcampos.aniversai#b62551iv{width: 40%;}
+
+}
+
+
+@media only screen and (max-width:580px)
+{
+
+.aviso {
+font-size: 10px;
+line-height: 12px;
+}
+
+#sidebar .parte1{width:45%;float:right;text-align:center;font-size:16px;}
+#sidebar .parte2{font-size:13px;}
+
+#sidebar .parte1 span{font-size:22px !important; line-height:24px !important;}
+
+#sidebar .parte2 img{width:80%;float:left;text-align:center; margin-left:25px;}
+
+.divlabel {width:90%; float:left;}
+.divcampos{width:100% !important;}
+.divcampos input{width:85% !important; float:right;}
+.aviso{width: 87% !important;
+float: right;}
+.divcampos select{
+width: 85%;
+float: left;
+}
+.asterisco {
+width: 5px;
+float: right;
+margin-right: 10px;
+}
+
+#lastnameInput {
+margin-left: 0px;
+}
+
+.nomprenomlabel, .telephonelabel, .emaillabel{display:none;}
+
+#sidebar .parte1 {
+margin-right: 20px;
+}
+
+#lastnameInput {
+margin-left: 0px;
+margin-top: 5px;
+}
+
+.divcampos input {
+width: 88% !important;
+float: left;
+}
+
+.formdesc2 {
+margin-bottom: 10px !important;
+}
+
+.aniversai#b62551iv{width:auto !important;}
+
+#emailDiv {
+margin-top: 0px;
+}
+
+.cabeceraimg{display:none;}
+
+.aviso {
+font-size: 12px;
+}
+
+#contenidof3 .divlabel{display:none;}
+
+#contenidof3 #countryInput {
+float: right;
+width: 152px !important;
+}
+
+#sidebar .parte1.form3, #sidebar .parte2.form3{display:none !important;}
+
+#titulo1 {
+font-size: 17px !important;
+}
+
+#titulo2 {
+font-size: 14px !important;
+}
+
+#titulo1 {
+margin: 0 0 10px;
+padding: 0px 15px;
+}
+
+#titulo2 {
+padding: 0px 15px;
+}
+
+
+
+}
+	
+
+
+/* #Media Queries
+================================================== */
+
+	/**/
+	
+	
+	body {
+  background-image: none;
+  background-repeat: repeat;
+  background-color: #fce4eb;
+}
+
+.aviso {
+display: inline-block;
+float: left;
+font-size: 12px;
+}
+	
+	
+	@media only screen and (min-width: 700px){
+	
+	
+	#condiciones3 {
+margin-left: 50px;
+
+}
+
+.divlabel {
+margin-left: 30px;
+}
+
+
+#SubmitButton {
+margin-right: 245px;
+}
+
+#NomUtilisateurInput{
+margin-left: 50px;
+}
+#MotDePasseInput{
+width: 180px;
+margin-left: 50px;
+}
+
+#VeriMotDePasseInput{
+margin-left: 265px;
+width: 180px;
+}
+
+
+
+
+#phoneInput {
+margin-left: 15px;
+}
+
+#contenido {
+float: right;
+    width: 580px;
+  height: 445px;
+}
+#contenidof3{  height: 460px;}
+.msgbottom {
+float: right;
+width: 590px;
+}
+
+.regalo_bem{width: 40px;
+margin-top: 0px;}
+
+.regalo_bem.nestle, .regalo_bem.guigoz{width: 80px;
+margin-top: 10px;}
+
+#contenidof3 .aviso {
+display: inline-block;
+width: 470px;
+}
+
+#addessInput {
+width: 161px;
+}
+
+#zipInput {
+margin-left: 7px;
+width: 80px;
+}
+
+#cityInput {
+width: 100px;
+margin-left: 26px;
+}
+
+#countryInput {
+width: 152px;
+margin-left: 10px;
+}
+
+
+.aviso.nestle, .aviso.guigoz{width:464px;}
+
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+input[type="text"], input[type="password"] {
+    height: 20px !important;
+    margin-top: 0px !important;
+}
+select{height:30px !important;}
+
+.regalo_bem{display:none;}
+
+#countryInput {
+float: right;
+}
+
+
+
+}
+	
+	
+	
+	
+#condiciones1, #condiciones2, #condiciones3{width: 100%;
+clear: both;
+float: left;
+margin-top: 5px;}
+
+#condiciones3{margin-bottom:10px;}
+
+.divlabel {
+display: inline-block;
+width: 180px;
+}
+
+
+@media only screen and (min-width:900px)
+{
+
+#checkConditions2{margin-left:15px;}
+
+#condiciones2{width: 450px;
+float: left;
+margin-top: 0px;
+clear: none;}
+#emailInput {
+width: 120px;
+float: left;
+}
+#condiciones2 .aviso{float: right;
+width: 399px;
+font-size: 11px;}
+
+#condiciones2 .aviso {
+float: left;
+width: 399px;
+font-size: 11px;
+margin-left: 5px;
+}
+
+
+#condiciones3 .aviso{
+display: inline-block;
+width: 540px;}
+
+
+#emailInput {
+  width: 120px;
+   float: none; 
+  margin-left: 15px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width:800px)
+{
+
+
+#checkConditions2{width:auto !important;float: left;}
+
+}
+
+
+
+#condicionesNestle, #condicionesGuigoz{clear:both;}
+
+#condiciones-wrapper{background-color: #fafafa;
+padding: 0px 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 0px;
+float: left;
+width: 100%;
+margin-left: -15px;}
+
+.regalo_bem.nestle, .regalo_bem.guigoz{float:right;}
+
+.texto_rojo{color: #b62551 !important;}
+
+p.frase_regalo {
+font-size: 20px;
+color: #ea4b62;
+letter-spacing: -1px;
+float: left;
+margin: 15px 0px 8px 0px;
+}
+
+
+input, .divcampos input{
+height: 16px;
+border: 0px solid #ccc;
+border-radius: 5px;
+}
+
+select{
+border: 0px solid white !important;
+border-radius: 5px;
+height:20px;
+}
+
+
+#contenido input, #contenido select, #contenidof3 input {
+font-family: Raleway !important;
+font-size: 15px !important;
+}
+
+#condicionesNestle, #condicionesEvian , #condicionesGuigoz{
+clear: none;
+float: right;
+margin-top: 11px;
+}
+
+.regalo_bem.nestle, .regalo_bem.guigoz {
+float: left;
+}
+
+
+.regalo_bem.evian {
+width: 80px;
+margin-top: 20px;
+float:left;
+}
+
+#contenidof3 #error{margin-bottom: 20px;}
+#contenidof3 #error2{margin-bottom: 20px;}
+
+#contenido select, #contenido input,  #contenidof3 input ,  #contenidof3 select {
+background-color: #f4f4f4;
+}
+
+#contenido,  #contenidof3  {
+background-color: white !important;
+}
+
+
+#contenidof3 #condiciones{float: right;}
+
+#contenidof3 #condiciones #titulo2, #contenidof3 #condicionesEvian #titulo2, #contenidof3 #condicionesNestle #titulo2, #contenidof3 #condicionesGuigoz #titulo2{text-align: left;
+padding: 0px 0px;
+line-height: 23px;
+margin-top: 0px;
+margin: 0px;
+text-align: left;
+font-size:15px !important;}
+
+
+#sidebar {
+background-color: white;
+}
+
+#principal {
+background-color: white;
+}
+
+#sidebar .parte3 {
+font-family: 'Raleway';
+text-align: center;
+line-height: 22px;
+color: #b62551;
+border-bottom: 0px solid white;
+padding-bottom: 15px;
+font-size: 13px;
+padding-bottom: 0px;
+}
+
+.formulario2_3210 .divlabel {
+display: inline-block;
+width: 190px;
+}
+
+#SubmitButton {
+margin-top: 0px;
+margin-bottom: 41px;
+}
+
+#contenidof3 .cabecera3210 {
+text-align: center !important;
+}
+
+#contenidof3 #titulo1 {
+font-size: 16px !important;
+margin-bottom: 0px;
+}
+
+#contenidof3 #titulo2 {
+font-size: 16px !important;
+margin-top: 0px;
+}
+
+#sidebar .parte2 {
+font-family: 'Raleway';
+text-align: center;
+line-height: 22px;
+color: #ea4b62;
+border-bottom: 0px solid white;
+padding-bottom: 15px;
+font-size: 13px;
+}
+
+
+@media only screen and (min-width: 580px) and (max-width: 800px){
+
+.divFilaForm {
+margin-bottom: 7px;
+width: auto;
+float: left;
+}
+
+.divcampos {
+display: inline-block;
+width: auto;
+float: left;
+}
+
+#contenido input, #contenidof3 input {
+background-color: #f4f4f4;
+width: 156px !important;
+float: left;
+margin-left: 10px;
+}
+
+.asterisco {
+width: 5px;
+margin-right: 10px;
+float: left;
+}
+
+#condiciones2{float: left;
+width: 440px;
+clear: none;
+margin-top: 10px;}
+
+#condiciones2 input{float: left;
+width: auto !important;}
+
+#countryInput{float: right;
+margin-left: 378px;
+margin-top: 4px;
+width: 156px !important;}
+
+#condiciones3{width: 100%;
+clear: both;
+margin: 0px;
+margin-top: 7px;
+margin-left: 60px;
+}
+
+#condiciones3 input{width: auto !important;
+float: left;}
+
+.divcampos.aniversai#b62551iv {
+width: auto;
+}
+
+.divcampos.aniversai#b62551iv  select{
+width: auto !important;
+}
+
+.divFilaForm  select{
+background-color: #f4f4f4;
+width: auto !important;
+float: left;
+}
+
+
+
+.divlabel{float:left;margin-left: 50px;}
+
+
+#contenido, #contenidof3 {
+float: left;
+width: 100%;
+}
+
+.msgbottom {
+float: left;
+width: 100%;
+text-align: center;
+}
+
+#sidebar .parte1 {
+margin-top: 49px;
+margin-right: 57px;
+}
+
+#condiciones input{float: left;
+width: auto !important;}
+
+#SubmitButton {
+margin-right: 300px;
+}
+
+.divFilaForm {
+padding-left: 50px;
+}
+
+#sidebar .parte2 {
+padding-bottom: 0px;
+}
+
+#contenidof3 .aviso.nestle,#contenidof3  .aviso.evian, #contenidof3  .aviso.guigoz {
+display: inline-block;
+width: 90% !important;
+}
+
+#contenidof3 #checkConditionsNestle,#contenidof3  #checkConditionsEvian, #contenidof3  #checkConditionsGuigoz{width: auto !important;}
+
+.formulario_3 #sidebar .parte1 {
+margin-top: 32px;
+margin-right: 0px;
+float: left;
+margin-left: 46px;
+}
+
+.formulario_3 #sidebar .parte2 {
+
+float: right;
+margin-top: 95px;
+margin-right: 65px;
+width: 200px;
+}
+
+.captcha_wrapper{float:left !important;}
+
+}
+
+
+input.suma_captcha{text-align:center;}
+
+.error_partners_wrapper{margin-top:0px !important;margin-left:-10px;background-color:white;}
+
+img.error_partners{width:100%;}
+
+#error {
+margin-top: 0px;
+}
+
+
+#sidebar .parte1,  #sidebar .parte1 img{
+  width: 100% !important;
+  margin:0px !important;
+}
+
+#SubmitButton {
+  width: 149px;
+  }
+  
+  #contenido select, #contenido input, #contenidof3 input, #contenidof3 select {
+  height: 25px;
+}
+
+
+.header3210{
+  text-align: center;
+  border-bottom: 3px solid #f188a7;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.header3210 .logoform{max-width:90%;}
+
+.cabecera3210 {
+  font-family: Sofia, Raleway, Arial, Raleway;
+  }
+  
+  .cabecera3210 {
+    background-color: white;
+    color: white;
+    color: #b62551 !important;
+    font-size: 25px;
+}
+
+.formdesc1 {
+    margin-top: -20px;
+    margin-bottom: 10px !important;
+    float: right;
+}
+
+@media only screen and (min-width: 700px){
+
+
+#addessInput {
+    width: 130px;
+}
+#nameInput {
+    width: 140px;
+    margin-left: 12px;
+}
+#lastnameInput {
+    width: 140px;
+    margin-left: 20px;
+}
+#emailInput {
+    width: 190px;
+}
+#phoneInput {
+    width: 160px;
+}
+#cityInput {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.divlabel {
+    font-size: 13px!important;
+    font-weight: bold;
+}	
+
+.ani1, .ani2{float:left; width:auto;}
+
+.textoani{
+    color: #b62551 !important;
+    font-size: 20px;
+    float: left;
+    width: 137px;
+    font-family: Sofia;
+    margin-top: 28px;
+    text-align: right;
+}
+
+.divlabel {
+    display: inline-block;
+    width: 137px;
+}
+
+#SubmitButton {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.msgbottom span{    float: right;
+    width: 80%;
+    font-size: 12px;}
+	
+	.divFilaForm strong{font-weight:bold;}
+
+}
+
+@media only screen and (max-width: 1200px){
+.hidemobile{display:none !important;}
+
+.header3210 {
+    display: none;
+}
+
+#lastnameInput {float:left;}
+#divAdresse input, #divAdresse select{float:left;}
+
+#SubmitButton {
+    width: 153px;
+	    padding: 10px 15px !important;
+}
+.msgbottom span {
+    float: left;
+    width: 94%;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+#countryInput{margin-top:5px;}
+
+#divAdresse .asterisco{display:none;}
+
+.cabecera3210 {
+    text-align: center;
+	
+	}
+	
+	
+}
+
+
+.aviso {
+    margin-left: 10px;
+}
+
+.aviso a {
+    background: transparent !important;
+	}
+	
+	body {
+    background-image: url(../img/bg_uk.png);
+    background-repeat: repeat-x;
+    background-color: #fce4eb;
+	    background-position-y: 100px;
+	}
+	
+	#contenido, #contenidof3 {
+    background-color: transparent !important;
+}
+
+#principal {
+    background-color: transparent;
+}
+
+#sidebar {
+    background-color: transparent;
+}
+
+.cabecera3210 {
+    background-color: transparent;
+	}
+	
+	#condiciones-wrapper {
+    background-color: transparent;
+	}
+	
+	
+	#contenido select, #contenido input, #contenidof3 input, #contenidof3 select {
+    background-color: white;
+    border: 1px solid #ccc;
+	font-weight:bold;
+}
+
+.cabecera3210 span {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.cabecera3210  {
+    margin-left: 10px;
+}
+
+
+	.titulophoto, .titulonestle_contenido, .tituloplanet {
+    color: #b62551 !important;
+    font-size: 14px;
+	margin-bottom: 5px;
+	width: 100%;
+float: left;
+}
+
+@media only screen and (min-width: 780px){
+.logocheck{
+width: 18%;
+margin-top: 9px;
+}
+.aviso {
+    margin-left: 10px;
+    float: left;
+    width: 76% !important;
+}
+
+.nestle_contenido2 {
+    margin-left: 10px;
+    float: left;
+    width: 68% !important;
+}
+
+.aviso.nestle{
+width:90% !important;
+}
+
+.aviso.nestle img{
+width:100% !important;
+}
+/*
+#nameInput {
+    width: 140px;
+    margin-left: 0px;
+}
+#emailInput {
+    margin-left: 0px;
+    width: 315px;
+}
+#phoneInput {
+    margin-left: 0px;
+	width: 315px;
+	}
+	*/
+	
+	.formdesc1 {
+    margin-top: 0px;
+	}
+	
+	#nameInput {
+    width: 200px;
+    margin-left: 0px;
+	float:left;
+}
+
+#lastnameInput {
+    width: 200px;
+    margin-left: 15px;
+}
+
+#emailInput {
+    margin-left: 0px;
+    width: 200px;
+}
+
+#phoneInput {
+    width: 200px;
+}
+
+.ani1 {
+    float: left;
+    width: auto;
+    width: 50%;
+}
+ .ani2{
+    float: left;
+    width: auto;
+    width: 100%;
+	    margin-top: 10px;
+}
+
+#tratamiento{margin-top: 6px;}
+
+
+#anniversaireLabel{    color: #b62551 !important; font-family: Sofia, Raleway, Arial, Raleway;     font-size: 16px; margin-bottom:10px;font-weight:normal;}
+
+
+.aniversairediv{margin-top:7px;}
+
+.msgbottom {
+    float: left;
+	}
+	
+	#SubmitButton {
+    margin-right: 198px;
+}
+
+#contenidof3 .divFilaForm{margin-left: 50px;}
+
+#SubmitButton {
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: Raleway;
+}
+
+.aniversairediv {
+    margin-top: 7px;
+    display: block;
+    height: 23px;
+}
+
+.divlabel {
+    display: inline-block;
+    width: 180px;
+}
+
+
+.aviso.planet1{
+width:64% !important;
+}
+.logocheck.logoplanet1{
+margin-top: -24px !important;
+width: 30%;
+}
+
+
+}
+
+@media only screen and (max-width: 1200px){
+body {
+	    background-position-y: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 780px){
+
+
+
+#pregunta2Nestle_1, label[for="pregunta2Nestle_1"], #pregunta2Nestle_2, label[for="pregunta2Nestle_2"]{
+margin: 5px 0px;
+}
+#pregunta2Nestle_1, #pregunta2Nestle_2{
+margin-left: 15px;
+}
+
+
+
+#preguntaNestle_1, label[for="preguntaNestle_1"], #preguntaNestle_2, label[for="preguntaNestle_2"] {
+    margin: 5px 0px;
+}
+#preguntaNestle_1, #preguntaNestle_2{
+margin-left: 15px;
+}
+
+.frase100 {
+    padding: 5px 0px;
+    float: left;
+    width: 100%;
+}
+
+.titulophoto, #condiciones, .tituloplanet {
+    margin-top: 0px;
+}
+
+#condiciones-wrapper #nestle {
+    width: 100% !important;
+}
+
+.nestle_imagen_2{
+/* display: none !important; */
+}
+.nestle_imagen_2 {
+    float: right;
+    width: 30% !important;
+    margin-top: -5px !important;
+}
+.nestle_contenido2{
+width: 70% !important;
+float: left;
+}
+
+#checkNeslteContenido3, input[type="radio"]{
+float: left;
+width: 25px !important;
+}
+
+.contenidoopcion{
+float:left; clear:right;
+}
+.nestle_contenido .nestle_contenido2 input[type="text"] {
+    width: 95% !important;
+}
+
+label.aviso.nestle > img{
+width:100%;
+}
+
+.logocheck{display: none;}
+.logocheck.logophotobox1, .logocheck.logoplanet1{
+    margin-top: -5px !important;
+    display: inline;
+    width: 70px;
+    float: right;}
+.aviso{width:inherit;}
+.aviso.photobox1, .aviso.planet1{
+width:70% !important;
+}
+
+#countryInput{
+float:left;
+}
+
+.cabecera3210 {
+    margin-top: 20px;
+}
+
+.asterisco {
+    width: 2px;
+	}
+	
+	.cabecera3210 {
+    margin-left: 0px;
+    line-height: 20px;
+}
+	
+	}
+	
+	#sidebar img{width:100%;}
+	
+	.fechasaniversario {
+    margin-right: 0px;
+}
+
+.textosidebar{
+    color: #b62551 !important;
+    font-size: 20px;
+	font-family:Sofia;
+}
+
+
+#SubmitButton {
+    background: -webkit-linear-gradient(#67ae55, #578843);
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+	border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	    width: 184px;
+}
+
+#condiciones-wrapper {
+    background-color: #fbdfe6; 
+    padding-bottom: 10px;
+}
+
+.formulario_3 #condiciones-wrapper {
+    background-color: transparent !important; 
+}
+
+#phoneInput{display: none !important;}
+
+
+.gsc-control-cse {
+    padding: 0px !important;
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+
+#condiciones-wrapper #nestle{
+background-color: white !important;
+float: left;
+padding: 5px;
+border: 3px solid #f188a7;
+}
+
+.nestle_contenido .nestle_contenido2  input[type="text"], .nestle_contenido .nestle_contenido2 .divcampos{
+width:100%;
+}
+
+#checkNeslteContenido2{
+float:left;
+}
+#checkNeslteContenido3{
+float:left;
+}
+#checkNeslteContenido4{
+float:left;
+}
+
+.nestle_contenido2_label {
+    margin-left: 10px;
+    float: left;
+    width: 90% !important;
+}
+
+.nestle_contenido3_label {
+    margin-left: 10px;
+    float: left;
+    width: 90% !important;
+	line-height: 13px;
+}
+
+.nestle_contenido .divFilaForm{
+margin-bottom: 5px;
+clear: both;
+}
+
+.nestle_imagen_2{
+float: right;
+}
+
+.divFilaForm.fila100{
+width:100% !important;
+padding-left: 10px;
+}
+
+.nestle_contenido p{
+margin-bottom:2px !important;
+margin-top: 2px !important;
+line-height: 14px;
+}
+
+.nestle_contenido2_label
+{
+line-height: 14px;
+margin-bottom: 5px;
+}
+
+.nestle_contenido button{
+border-radius: 20px;
+border: 0px solid white;
+padding: 10px 25px;
+font-size: 18px;
+background-color: rgb(221, 221, 221);
+margin-left: 40px;
+}
+
+#anniversaireLabel{
+color: #b62551 !important;
+font-family: Sofia, Raleway, Arial, Raleway !important;
+font-size: 16px;
+}
+#SubmitButton{
+float: none;
+margin: 15px auto;
+}
+
+#contenidof3 .divFilaForm {
+    margin-left: 15px;
+}
+#condiciones {
+    padding: 7px;
+}
+
+#contenidof3 .divFilaForm {
+    margin-left: 0px;
+}
+
+
+.planet_wrapper{
+float: left;
+background-color: white;
+padding: 10px;
+}
+
+
+
+
+
+/* Media Queries Tablet*/
+
+
+
+@media only screen and (min-width:550px) and (max-width: 800px)
+{
+	body > div.container
+	{
+		width: 100%;
+	}
+	
+	#principal
+	{
+		height: 760px;
+	}
+	
+	#sidebar
+	{
+		//display: none;
+		width: 40%;
+		height: 100%;
+		margin-top: 5px;
+	}
+	#contenido, #contenidof3
+	{
+		width: 59%;		
+		margin-top: 5px;
+	}
+	
+	div.divcampos
+	{
+		width: 100%;
+	}
+	
+	#tratamiento
+	{
+		margin-left: 3%;		
+	}
+	
+	#contenido input
+	{
+		width: 90% !important;
+	}
+	
+	#contenido div.divFilaForm, #contenidof3 div.divFilaForm
+	{
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#contenido div.primerafila input, #contenidof3 div.primerafila input
+	{
+		//width: 380px !important;
+		width: 90% !important;
+	}
+	
+	#contenido div#emailDiv, #contenido div#divAdresse
+	{
+		width: 100%;
+	}
+	
+	#contenido label.titulodireccion
+	{
+		margin-left: 3%;
+	}
+	
+	#contenido div#emailDiv input, #contenidof3 div#emailDiv input
+	{
+		//width: 380px !important;
+		width: 90% !important;
+		margin-top: 0px;
+	}
+	
+	#contenido div#divAdresse input, #contenidof3 div#divAdressse
+	{
+		//width: 380px !important;
+		width: 90% !important;
+	}
+	
+	span.asterisco
+	{
+		margin-right: 0px; 
+		margin-left: 0.5%;
+	}
+	
+	#contenido select#PaysInput, #contenidof3 select#PaysInput
+	{
+		float: left;
+		margin-left: 10px;
+	}
+	
+	
+	#vousetbebe > div.divFilaForm
+	{
+		width: 100%;
+	}
+	
+	#contenido div#condiciones3, #contenidof3 div#condiciones3
+	{
+		margin-left: 3px;
+	}
+	
+	#youandbaby > p.formdesc1 > span
+	{
+		margin-top: 20px;
+	}
+	
+	#emailInput
+	{
+		margin-left: 2% !important;
+	}
+		
+	#vousetbebe  div.divlabel
+	{
+		margin-left: 3%;
+		width: 37%;
+	}
+	
+	.divcampos.aniversairediv
+	{		
+		margin-left: 3%;
+	}
+	
+	#anniversairemama_dia, #anniversairemama_mes, #anniversairemama_anyo, #anniversairebebe_dia, #anniversairebebe_mes, #anniversairebebe_anyo
+	{
+		margin-right: 1.5%;
+	}
+	
+	#countryInput
+	{
+		margin-left: 3%;
+	}
+	
+	div.votreanimal_wrapper
+	{
+		width: 100%;
+	}
+	div.votreanimal_wrapper input
+	{
+		width: 90% !important;
+	}
+	
+	div.votreanimal_wrapper div.divlabel
+	{
+		margin-right: 25%;
+	}
+	
+	div.votreanimal_wrapper select#animal
+	{
+		margin-left: 3%;
+	}
+	
+	div.votreanimal_wrapper div.divlabel label#anniversaireLabel
+	{
+		float:none;
+		margin-left: 3%;
+	}
+	
+	#youandbaby > div.votreanimal > div.col-sm-12.coregwrapper.coregAssurances
+	{
+		margin-left: 3%;
+	}
+	
+	#youandbaby > div.votreanimal > div.col-sm-12.coregwrapper.coregPurina
+	{
+		margin-left: 3%;
+	}
+	
+	#youandbaby > div.votreanimal > div.divFilaForm.ani2 > div.divlabel
+	{
+		margin-left: 3%;
+		margin-top: 7px;
+	}
+	
+	#youandbaby > div.votreanimal > div.col-sm-12.coregwrapper.coregAssurances > div.col-sm-12.titulocoreg.floatleft.clearboth
+	{
+		//margin-left: 3%;
+	}
+	
+	#contenido input#checkCondicionesAssurances
+	{
+		width: auto !important;
+		margin-left: 3%;
+	}
+	#contenido input#checkCondicionesPurina
+	{
+		width: auto !important;
+		margin-left: 3%;
+	}
+	
+	#youandbaby > div.votreanimal > div.col-sm-12.coregwrapper.coregPurina > div.col-sm-9.col-xs-11.textocoreg > label	
+	{
+		margin-left: 5%;
+		width: 93% !important;
+	}
+	
+	#condiciones-wrapper
+	{
+		margin-left: 5px !important;
+		width: 96% !important;
+		padding: 0px;
+	}
+	
+	#SubmitButton
+	{
+		margin-right: 33%;
+	}
+	
+	body > div.container > img
+	{
+		display:none;
+	}
+	
+	
+	#sidebar{
+		display: none !important;
+	}
+	
+	#contenido, #contenidof3{
+		float:none !important;
+		margin: 0 auto !important;
+	}
+	
+	.formulario_3 .msgbottom{
+		
+		float:none !important;
+		margin: 0 auto !important;
+		width: 59%;		
+		clear: both;
+	}
+	
+	#contenidof3 #vousetbebe > div.col-sm-12.coregwrapper.coregMutuelle > div.col-sm-11.col-xs-11.textocoreg > label
+	{
+		width: 100%;
+	}
+	
+	#contenidof3 #vousetbebe > div.col-md-12
+	{
+		float: none !important;
+	}
+	
+	#contenidof3 #checkCondicionesAssurances
+	{
+		width: auto !important;
+	}
+	
+	#contenidof3 #checkCondicionesPurina
+	{
+		width: auto !important;
+	}
+	
+	#contenidof3 #checkCondicionesCalinia
+	{
+		width: auto !important;
+	}
+	
+	#form1 > div.col-sm-12.coregwrapper.coregAssurances > div.col-sm-9.col-xs-11.textocoreg > label
+	{
+		width: auto !important;
+	}
+	
+	#form1 > div.col-sm-12.coregwrapper.coregPurina > div.col-sm-9.col-xs-11.textocoreg > label
+	{
+		width: auto !important;
+	}
+	
+	#form1 > div.col-sm-12.coregwrapper.coregCalinia > div.col-sm-9.col-xs-11.textocoreg > label
+	{
+		width: auto !important;
+	}
+	
+	#contenidof3 input#username_databaseInput
+	{
+		width: 90% !important;
+	}
+	
+	#contenidof3 input#password_databaseInput
+	{
+		width: 90% !important;
+	}
+	
+	#contenido #countryInput, #contenido #emailInput{
+		width: 90% !important;
+		float: left !important;
+		margin-left: 10px !important;
+	}
+	
+	#contenido #countryInput{
+		width: 93% !important;
+	}
+	
+	#contenido input, #contenido label, #contenido span.firsttime, #contenido select{
+		margin-left: 10px;
+	}
+	
+	.firsttime {
+		float: left !important;
+		padding-top: 10px !important;
+	}
+	
+	.ani1, .ani2{
+		margin-top: 10px !important;
+		margin-bottom: 5px !important;
+		width: 100% !important;
+	}
+	
+	.firsttime {
+		margin-bottom: 5px !important;
+	}
+	.firsttime_wrapper {
+		margin-top: 5px !important;
+	}
+	
+	.check {
+		float: left !important;
+		width: 5% !important;
+	}
+	
+	#contenido .formdesc1, #contenido .formdesc2  {
+		margin-bottom: 0px !important;
+	}
+	
+	#tratamiento, .ani1 label, .ani2 label{
+		margin-left: 10px !important;
+	}
+	
+	.ani1 .divlabel, .ani2 .divlabel{
+		margin-left: 0px !important;
+		width: 90% !important;
+	}
+	
+	#contenido input[type="checkbox"]{
+		margin-left: 0px !important;
+	}
+	
+	#contenido span.firsttime {
+		margin-left: 0px;
+	}
+	
+	#error{
+		margin-top: 15px !important;
+	}
+	
+	.direccionNestle, .direccionCAG, .direccionAPTA {
+		padding: 10px !important;
+	}
+	
+	#contenidof3 input[type="text"]{
+		width: 90% !important;
+	}
+	
+	#direcciones2, #direcciones{
+		margin-top: 33px !important;
+		left: inherit !important;
+		width: 300px !important;
+		margin-left: 10px;
+	}
+	
+	#contenidof3 input[name="OptIn1"]{
+		    width: 12px !important;
+	}
+	
+	#contenidof3 #ciudades3210{
+		margin-left: 10px;
+		width: 41%;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	
+	img{
+		max-width: 100% !important;
+	}
+	
+	
+	
+}
